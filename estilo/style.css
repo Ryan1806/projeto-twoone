@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Sriracha&display=swap');
+
+/*Gerais*/
+
+* {
+    font-family:'Roboto', sans-serif ;
+}
+
+
+body {
+    font-family:'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0px;
+}
+
+.container {
+    padding: 30px 0px;
+}
+
+p,li {
+    color: black;
+    font-size: 14px;
+}
+
+/*Barra de Navegação*/
+header, .navbar{
+    background-color: black;
+
+}
+
+header {
+
+    padding-bottom: 120px;
+}
+
+nav.container {
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0px;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbar-links a {
+    color: white;
+    padding-top: 30px;
+    padding-right: 15px;
+    font-size: 13px;
+    font-weight: bolder;
+} 
+
+#navbar-links a#contact-menu {
+    padding-right: 80px;
+}
+
+.container {
+  margin: 10px ;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+#mainSlider .caroulsel-innner, #mainSlider .carousel-item {
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+    top:30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size:22px ;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.main-btn {
+    background-color: #65DAF9;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration:none ;
+    color: white;
+    background-color: transparent;
+    border-color:#65DAF9 ;
+
+}
+
+.carousel-indicators .active {
+    background-color: #65DAF9;
+}   
+
+#container-title h1 {
+    color: white;
+    text-align: center;
+    font-size:4.5em;
+    ;
+    margin-top: 80px;
+    font-weight: bolder ;
+}
+
+#container-title h2 {
+    color: white;
+    text-align: center;
+    font-size:1.2em;
+    margin-top:30px ;
+    font-weight: bolder ;
+}
+
+#button1 {
+    padding: 15px 30px ;
+    border-radius: 30px;
+    border:#2A89DD;
+    
+    background-color: #2A89DD;
+    margin-left: 50%;
+
+    transform: translate(-50px);
+    transition: .5s;
+}
+
+#button1:hover {
+    box-shadow: 0 14px 26px -12px #2a8addbd;
+}
+
+.p-buttom {
+    font-size: 12px;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+}
+
+.container-info {
+    background-color: white;
+    width:90vw ;
+    height: 1450px;
+    margin-top: -70px;
+    margin-left:45px ;
+    box-shadow: 0px 10px 10px 10px  rgba(151, 150, 150, 0.445);
+    border-radius: 6px;   
+}
+
+section#service .row > h2 {
+    display: inline;
+    margin: auto;
+    margin-top: 70px;
+    color: #3C4858;
+    font-weight: bolder;
+    font-size: 45px;
+}
+section#service {
+    display:inline;
+}
+
+i {
+    font-size:70px; 
+    color:#2A89DD ; 
+    margin-bottom: 30px;
+}
+
+h2#serv {
+    display: block;
+}
+
+.row {
+    display: block;
+
+}
+
+.hestia-info {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+
+.hestia-info {
+    display: block;
+    padding: 70px 0px 30px;
+}
+
+.hestia-info h4 {
+    margin: 30px 0px 15px;
+}
+
+
+
+
+
+
+
