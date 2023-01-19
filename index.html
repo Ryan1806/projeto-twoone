@@ -151,15 +151,37 @@
       </div>
     </div>
   </div>
-<div class="form">
+<div class="content">
+  <div id="header">
+    <div class="container">
+      <div class="col-md-6">
+        <h4>Contacte-nos</h4>
+      </div>
+    </div>
+  </div>
   <form action="login.php" method="post">
-    <label for="usuario" name="iusuario">
-      <input type="text" name="iusuario"  >
+  <div class="forms" id="form-n">
+    <label for="inome">
+      <input type="text" name="nome" id="inome" placeholder="Nome" required minlength="4">
     </label>
+  </div>
+  <div class="forms" id="form-e">
     <label for="iemail" >
-     <input type="email" name="email" id="iemail">
+     <input type="email" name="email" id="iemail" placeholder="Email" required minlength="6" j>
     </label>
+  </div>
+  <div class="forms" id="form-a">
+    <label for="iassunto">
+      <input type="text" name="assunto" id="iassunto" placeholder="Assunto" required >
+    </label>
+  </div>
+  <div class="forms" id="form-m">
+    <label for="imensagem" >
+      <input type="text" name="mensagem" id="imensagem" placeholder="Mensagem" requerid minlength="4">
+    </label>
+  </div>
     <input type="submit" value="Enviar">
+
   </form>
 </div>
 </main>

@@ -35,6 +35,7 @@ header, .navbar{
 header {
     width: 100%;
     height: 100%;
+    display: flex;
 }
 
 nav.container {
@@ -579,7 +580,7 @@ main {
 
 #contact-area {
     width: 1242px;
-    height: 702px;
+    height: 800px;
     background-image: url(../imagem/wpp-cidade2.jpeg);
     background-size: cover;
     background-position:center center  ;
@@ -608,6 +609,7 @@ main {
 
 
 #contact-area h2 {
+    display: flex;
     font-family:'Roboto' ;
     color: white;
     font-weight: bolder;
@@ -618,10 +620,12 @@ main {
 
 #contato-info1 {
     display: flex;
+    width: 300px;
 }
 
 #contato-info2 {
-    display: flex;
+    display:flex;
+    width: 300px;
 }
 
 #contato-info1 h5 {
@@ -654,6 +658,106 @@ main {
     margin-left: 0px;
     margin-bottom: 10px;
 }
+
+
+.content {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+   float: right;
+   border-radius: 10px;
+   margin-top: -300px;
+   margin-right: 60px;
+    
+}
+
+
+
+#header {
+    display: flex;
+}
+
+#header .container {
+    display: block;
+    background-color: #2A89DD;
+    color: white;
+    width: 470px;
+    height:90px ;
+    margin-top: -30px;
+    border-radius: 5px;
+    box-shadow: 0 16px 38px -12px rgb(0 0 0 / 56%), 0 4px 25px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+
+}
+
+.col-md-6 {
+    width: 100px;
+    margin: auto;
+}
+
+#header .container h4 {
+    font-size: 19px;
+    font-weight: bolder;
+     width: 150px;
+     margin-left: 40px;
+     
+}
+
+
+.forms {
+    text-align: left;
+    display: inline-flex;
+    padding: 10px;
+    
+    
+}
+
+input {
+    padding: 8px;
+}
+
+.forms:hover {
+    transition: .5s;
+    border: none;
+    text-decoration: none;
+}
+
+
+#form-n, #form-e {
+    margin-top: 80px;
+}
+
+#form-a {
+    display: block;
+   
+}
+
+form > input[type=submit] {
+    font-size: 20px;
+    float: right;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right:35px ;
+    padding-left:35px ;
+    border-radius:30px ;
+    background-color: #2A89DD;
+    color: white;
+    border: none;
+    margin-top: 80px;
+    margin-right: 50px;
+
+}
+
+form > input[type=submit]:hover {
+    transition: .5s;
+    box-shadow: 0 14px 26px -12px rgb(42 137 221 / 42%), 0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(42 137 221 / 20%);
+}
+
+
+
+
+
+
 
 
 
