@@ -579,7 +579,7 @@ main {
 
 
 #contact-area {
-    width: 1242px;
+    width: 1262px;
     height: 800px;
     background-image: url(../imagem/wpp-cidade2.jpeg);
     background-size: cover;
@@ -704,7 +704,6 @@ main {
 
 
 .forms {
-    text-align: left;
     display: inline-flex;
     padding: 10px;
     
@@ -753,6 +752,114 @@ form > input[type=submit]:hover {
     box-shadow: 0 14px 26px -12px rgb(42 137 221 / 42%), 0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(42 137 221 / 20%);
 }
 
+
+/*footer*/
+
+footer {
+    display: flex;
+    width: 1262px;
+    height: 147px;
+    background-color: #323437;
+    margin-top:364px ;
+}
+
+footer .container img {
+   float: right;
+   margin-right: -30px;
+}
+
+footer a {
+    display: inline-flex;
+    font-size: 12px;
+    padding: 15px;
+    font-weight: bolder;
+    color: white;
+}
+
+footer a:hover {
+    transition: .5s;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+
+
+/*MEDIA QUERY*/
+
+/*celular*/
+@media (min-width:400px) and (max-width:768px)  {
+   
+
+    body {
+        width: 450px;
+
+    }
+
+    header {
+        width: 450px;
+    }
+
+   
+
+    #area-clientes #card {
+        display: block;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+   #services .col-md-4{
+    font-size: 80px;
+   }
+
+    #container-title  .col-12 {
+        margin-left: 0px;
+        float: left;
+        font-size: 9px;
+    }
+
+    content  > form {
+     float: left;
+     margin-top:800px  ;
+    }
+
+    .forms {
+        display:inline-flex;
+        margin-top: 500px;
+    }
+
+    #contact-area {
+        width: 100vw;
+    }
+
+
+    #contact-area {
+        width: 1224px;
+        height: 1500px;
+        background-image: url(../imagem/wpp-cidade2.jpeg);
+        background-size: cover;
+        background-position:center center  ;
+        background-repeat: no-repeat;
+    }
+
+    footer {
+        margin-top: 990px;
+    }
+}
+
+/*tablet*/
+
+@media (min-width:769px) and (max-width:992px) {
+   main {
+    width: 900px;
+   width: 100vw;
+   }
+
+   #area-clientes #card {
+    margin-left: 180px;
+    margin-top: 20px;
+}
+}
 
 
 
